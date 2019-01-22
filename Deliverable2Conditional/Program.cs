@@ -112,10 +112,17 @@ namespace Deliverable2Conditional
                 {
                     Console.WriteLine("There were issues with your input, please try again");
                 }//End else statement
+
+                //Prompts for user to close program manually
+                Console.WriteLine("Press any key to continue . . . ");
+                Console.ReadKey(true);
             }//End try
             catch
             {
                 Console.WriteLine("An error has occured");
+                //Prompts for user to close program manually
+                Console.WriteLine("Press any key to continue . . . ");
+                Console.ReadKey(true);
             }//End catch
         }//End Main method
     }//End Program class
